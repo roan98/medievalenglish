@@ -1,0 +1,110 @@
+body{
+ font-family : Verdana;
+}
+
+#logo{
+ position : absolute;
+ right : 100px;
+ top : 10px;
+ 
+}
+
+div.inhoud{
+ width:1000px;
+ margin-left:auto;
+ margin-right:auto;
+}
+
+div.content{
+ background-image: 
+ url(images/perkament.png), 
+ url(images/perkament-footer.png),
+ url(images/perkament.png);
+ background-position: center top, center bottom, center top;
+ background-repeat:no-repeat, no-repeat, repeat-y;
+}
+
+div.content2{
+ background-image: 
+ url(images/rice-paper.png), 
+ url(images/rice-paper-footer.png),
+ url(images/rice-paper.png);
+ background-position: center top, center bottom, center top;
+ background-repeat:no-repeat, no-repeat, repeat-y;
+}
+
+ul.menu li{
+ display:inline;
+ margin:10px;
+}
+ul.menu li a{
+ color:#c51
+}
+
+ul.menu2 li{
+ display:inline;
+ margin:10px;
+}
+ul.menu2 li a{
+ color:#dda
+}
+
+h1.medieval{
+ font-family: Arial;
+ color: white;
+ background-image: url(images/logo.png);
+ background-repeat: no-repeat;
+ background-position: right;
+ height: 150px;
+}
+h1.Mandarin{
+ font-family: Arial;
+ color: white;
+ background-image: url(images/brush.png);
+ background-repeat: no-repeat;
+ background-position: right;
+ height: 150px;
+}
+
+p.me{
+ font-family: Verdana, Tahoma;
+}
+
+p.m{
+ font-family: Verdana;
+}
+
+h3.universe{
+ color:white;
+}
+
+img.divider{
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+p.knight{
+color: white;
+margin-left: auto;
+margin-right: auto;
+padding-left: 175px;
+padding-right: 175px;
+}
+
+@font-face{
+ font-family: 'benegraphicregular';
+	src: url('FontStyles/benegraphic-webfont.eot');
+	src: url('FontStyles/benegraphic-webfont.eot?#iefix') format('FontStyles/embedded-opentype), 
+			url('FontStyles/benegraphic-webfont.woff') format('woff'),
+			url('FontStyles/benegraphic-webfont.tff') format('truetype'),
+			url('FontStyles/benegraphic-webfont.svg#benegraphicregular')format('svg');
+			
+font-weight: normal;
+font-style: normal;
+}
+
+
+
+
+
